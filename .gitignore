@@ -1,0 +1,67 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Uploads
+backend/uploads/
+
+# Python cache
+backend/__pycache__/
+
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+
+# =========================
+# Windows
+# =========================
+Thumbs.db
+Desktop.ini
+# Large training models
+backend/model/autoencoder.keras
+backend/model/best_autoencoder.keras
+backend/model/best_supervised_autoencoder.keras
+backend/model/supervised_autoencoder.keras
+
+# Training datasets
+backend/*.npy
+
+# Experimental models
+backend/model/*_raw.pkl
+backend/model/*_stat.pkl
+backend/model/rf_autoencoder.pkl
+backend/model/svm_autoencoder.pkl
+backend/model/model.pkl
+
+# Debug scripts
+backend/check_*.py
+backend/test_*.py
+backend/compare_features.py

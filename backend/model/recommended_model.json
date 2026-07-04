@@ -1,0 +1,5 @@
+{
+    "recommended_model": "Decision Tree",
+    "model_file": "decision_tree_patient.pkl",
+    "accuracy": 0.8461538461538461
+}
